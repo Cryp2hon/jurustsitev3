@@ -1,0 +1,750 @@
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+  height: 100%;
+}
+
+.button_style1 {
+  background: linear-gradient(180deg, #F69D4B 0%, #EE8524 100%);
+  box-shadow: 0 5px 0 0 #B86D29;
+  border: none;
+  color: #F1F1F1;
+  font-family: "Proxima Nova Bd";
+  text-transform: uppercase;
+  text-shadow: 0px 2.05373px 1.02686px rgba(0, 0, 0, 0.15);
+}
+
+.titlestyle {
+  font-family: "Berlingske Serif";
+  font-style: normal;
+  background: linear-gradient(99.55deg, #565656 -7.31%, #FFFFFF 46.74%, #606060 98.58%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 0px;
+}
+
+body {
+  background-color: #000000;
+  color: #fff;
+}
+
+.container {
+  width: 1200px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+.main {
+  background: url(/img/main_back.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  color: #fff;
+  position: relative;
+}
+.main_header {
+  padding-top: 40px;
+  border: 1 px solid red;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  font-family: "Proxima Nova Rg";
+}
+.main_header .logo {
+  display: flex;
+  align-items: center !important;
+  flex-direction: row;
+  margin-right: 200px;
+  color: #AFAFAF;
+}
+.main_header .logo img {
+  width: 47px;
+  height: 47px;
+  margin-right: 10px;
+}
+.main_header .logo p {
+  width: 157px;
+  font-size: 14px;
+  font-family: "Proxima Nova Rg";
+  text-align-last: left;
+  color: #AFAFAF;
+}
+.main_header .menu {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  font-family: "Proxima Nova Rg";
+  color: #AFAFAF;
+}
+.main_header .menu p {
+  font-size: 16px;
+  margin-right: 80px;
+  text-align: center;
+}
+.main_header .contacts {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+}
+.main_header .contacts .numbers {
+  display: flex;
+  align-items: center !important;
+}
+.main_header .contacts .numbers img {
+  width: 20px;
+  height: 19px;
+  display: block;
+  margin-top: -16px;
+  align-self: center;
+  margin-right: 13px;
+}
+.main_header .contacts .numbers_phone {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 18px;
+}
+.main_header .contacts .numbers_phone a {
+  color: #F1F1F1;
+  font-family: "Proxima Nova Rg";
+  font-size: 18px;
+  text-decoration: none;
+  margin-bottom: 3px;
+}
+.main_header .contacts .social {
+  display: flex;
+  justify-content: flex-end;
+  right: 0;
+}
+.main_header .contacts .social a img {
+  width: 25px;
+  height: 25px;
+}
+.main_header .contacts .social a:nth-child(1) {
+  margin-right: 19px;
+}
+.main_content {
+  margin-top: 30px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.main_content-left {
+  position: relative;
+  z-index: 999 !important;
+  width: 45%;
+}
+.main_content-left .lead {
+  font-family: "Berlingske Serif";
+  font-size: 55px;
+  text-transform: uppercase;
+  font-weight: 400;
+  line-height: 67px;
+}
+.main_content-left .lead i {
+  color: #EE8524;
+  font-style: normal;
+  font-size: 43px;
+}
+.main_content-left .offer {
+  display: flex;
+  position: relative;
+  z-index: auto;
+  align-items: center;
+  margin-top: -55px;
+}
+.main_content-left .offer .shape {
+  height: 2px;
+  width: 64px;
+  background-color: #6F6F6F;
+  margin-right: 15px;
+}
+.main_content-left .offer .offertext {
+  display: inline;
+  font-family: "Proxima Nova Lt";
+  font-size: 24px;
+  color: #C8C8C8;
+}
+.main_content-left .offer .offertext i {
+  font-family: "Proxima Nova Bd";
+  font-style: italic;
+  color: #fff;
+}
+.main_content-left .main_button {
+  margin-top: 10px;
+  width: 425px;
+  height: 110px;
+  border-radius: 10px;
+  background: linear-gradient(180deg, #F69D4B 0%, #EE8524 100%);
+  box-shadow: 0 5px 0 0 #B86D29;
+  border: none;
+  color: #F1F1F1;
+  font-family: "Proxima Nova Bd";
+  text-transform: uppercase;
+  font-size: 19px;
+  text-shadow: 0px 2.05373px 1.02686px rgba(0, 0, 0, 0.15);
+}
+.main_content-left .button_offer {
+  font-family: "Proxima Nova Rg";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18.5961px;
+  line-height: 23px;
+  color: #B5B5B5;
+  margin-left: 14px;
+}
+.main_content-left .button_offer i {
+  font-family: "Proxima Nova Bd";
+  font-style: normal;
+}
+.main_content-right {
+  position: relative;
+  display: flex;
+}
+.main_content-right .offer_image {
+  bottom: -100px;
+  z-index: 0;
+  right: 100%;
+  position: absolute;
+  display: inline;
+  width: 757px;
+  height: 900px;
+}
+.main_content-right .main_benefits {
+  margin-top: 50px;
+  z-index: 9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main_content-right .main_benefits-wrapper {
+  position: relative;
+  margin-bottom: 65px;
+  width: 226px;
+  height: 245px;
+  border-radius: 10px;
+  background: linear-gradient(312.06deg, rgba(255, 255, 255, 0) 6.6%, rgba(255, 255, 255, 0.8) 263.39%), rgba(65, 64, 63, 0.8);
+}
+.main_content-right .main_benefits-wrapper:nth-child(1) img {
+  width: 116px;
+  top: -60px;
+  left: 10px;
+}
+.main_content-right .main_benefits-wrapper:nth-child(2) img {
+  width: 97px;
+  top: -50px;
+  left: 20px;
+}
+.main_content-right .main_benefits-image {
+  position: absolute;
+}
+.main_content-right .main_benefits p {
+  font-family: "Proxima Nova Rg";
+  font-style: normal;
+  font-size: 16px;
+  line-height: 150%;
+  color: #F1F1F1;
+  padding: 50px 10px 10px 30px;
+}
+.main-transition {
+  width: 100%;
+  z-index: 1;
+  left: 0;
+  height: 150px;
+  transform: scale(1.2);
+  background-color: #100F10;
+  filter: blur(20px);
+  position: absolute;
+  bottom: -100px;
+}
+
+.second {
+  padding-top: 50px;
+  background: url(/img/second_bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: relative;
+  z-index: 99;
+}
+.second .container {
+  position: relative;
+}
+.second-transitionone {
+  top: -100px;
+  width: 100%;
+  left: 0;
+  height: 145px;
+  transform: scale(1.2);
+  background-color: #100F10;
+  filter: blur(20px);
+  width: 10000px;
+  position: absolute;
+}
+.second-transitiontwo {
+  bottom: -100px;
+  width: 100%;
+  left: 0;
+  height: 145px;
+  transform: scale(1.2);
+  background-color: #262626;
+  filter: blur(20px);
+  width: 10000px;
+  position: absolute;
+}
+.second_wrapper {
+  z-index: 9;
+  position: relative;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  background: url(/img/secondblock_image.png), linear-gradient(110.12deg, #3f3c3a 20%, #9D9D9D 85.79%);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: 1390px;
+  height: 741px;
+  border-radius: 25px;
+  border: 2px solid #fff;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.second_left {
+  padding-top: 100px;
+  padding-left: 127px;
+  width: 560px;
+}
+.second_left-title {
+  font-family: "Berlingske Serif";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 38px;
+  line-height: 46px;
+  text-transform: uppercase;
+  background: linear-gradient(99.55deg, #565656 -7.31%, #FFFFFF 46.74%, #606060 98.58%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 0px;
+}
+.second_left-groupone {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: -10px;
+}
+.second_left-line {
+  width: 28px;
+  height: 1px;
+  background-color: #fff;
+  margin-right: 20px;
+  margin-top: -85px;
+}
+.second_left-text {
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  color: #D9D9D9;
+  display: inline;
+  width: 360px;
+}
+.second_left-text span {
+  color: #FFFFFF;
+  font-weight: 600;
+}
+.second_left-grouptwo {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.second_left-name {
+  width: 100px;
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20.6821px;
+  line-height: 108%;
+  color: #fff;
+  padding-right: 10px;
+  border-right: 1px solid #fff;
+  margin-right: 10px;
+}
+.second_left-descriptor {
+  font-family: "Proxima Nova Rg";
+  width: 224px;
+  font-size: 16.0861px;
+  line-height: 142.5%;
+  /* or 23px */
+  color: #D9D9D9;
+}
+.second_left-rospis {
+  width: 196px;
+  height: auto;
+  margin-left: 75px;
+  margin-top: 10px;
+}
+.second_image {
+  position: absolute;
+  width: 612px;
+  height: 763px;
+  right: 360px;
+  bottom: 0;
+}
+.second_right {
+  padding-top: 120px;
+  right: 120px;
+  position: relative;
+}
+.second_right-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 343px;
+}
+.second_right-text {
+  font-family: "Proxima Nova Rg";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #D9D9D9;
+}
+.second_right-text span {
+  font-family: "Proxima Nova Bd";
+  color: #fff;
+}
+.second_right-form-wrapper {
+  width: 343px;
+  height: 390px;
+  background-color: #fff;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.second_right-form-title {
+  padding-top: 41px;
+  font-family: "Proxima Nova Lt";
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  margin-bottom: -10px;
+  color: #5E5E5E;
+}
+.second_right-form-title span {
+  color: #262626;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+.second_right-form-description {
+  font-family: "Proxima Nova Lt";
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #717171;
+}
+.second_right-formblock {
+  width: 270px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.second_right-formblock-phone {
+  background: #EFEFEF;
+  border: 1px solid #8B8B8B;
+  border-radius: 10px;
+  height: 70px;
+  font-family: "Proxima Nova Lt";
+  padding-left: 20px;
+  margin-bottom: 10px;
+}
+.second_right-formblock-button {
+  height: 70px;
+  font-size: 12px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.second_right-formblock-checkboxwrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.second_right-formblock-checkboxwrapper input {
+  width: 25px;
+  height: 25px;
+  margin-top: -3px;
+  margin-right: 10px;
+}
+.second_right-formblock-checkboxwrapper label {
+  font-family: "Proxima Nova Lt";
+  font-size: 12px;
+  line-height: 15px;
+  color: #787878;
+}
+.second_right-formblock-checkboxwrapper label a {
+  color: #100F10;
+  text-decoration: none;
+}
+
+.twoblocks {
+  background-image: url(/img/twoblock_back.png);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  padding-bottom: 100px;
+  margin-bottom: 50px;
+  background-color: #262626;
+  padding-top: 100px;
+  margin-top: 10px;
+}
+.twoblocks .benefits_wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.twoblocks .benefits_left {
+  width: 530px;
+}
+.twoblocks .benefits_left-title {
+  font-size: 38px;
+  line-height: 120%;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.twoblocks .benefits_left-descriptor {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 30px;
+}
+.twoblocks .benefits_left-line {
+  width: 48px;
+  height: 1px;
+  background-color: #fff;
+  margin-right: 15px;
+  margin-top: 12px;
+}
+.twoblocks .benefits_left-description {
+  width: 329px;
+  font-family: "Proxima Nova Lt";
+  font-size: 24px;
+  line-height: 29px;
+  color: #C8C8C8;
+}
+.twoblocks .benefits_image {
+  position: absolute;
+  z-index: -1;
+  margin-top: 75px;
+  margin-left: 20px;
+}
+.twoblocks .benefits_right {
+  right: 0;
+  width: 350px;
+  margin-top: 20px;
+}
+.twoblocks .benefits_card {
+  width: 350px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.twoblocks .benefits_card-imageblock {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: -5px;
+  margin-left: 15px;
+}
+.twoblocks .benefits_card-image {
+  width: 100px;
+  height: 100px;
+  margin-right: 15px;
+}
+.twoblocks .benefits_card-title {
+  font-family: "Proxima Nova Bd";
+  font-size: 22px;
+  line-height: 27px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.twoblocks .benefits_card-list {
+  font-family: "Proxima Nova Lt";
+  font-size: 16px;
+  line-height: 20px;
+  color: #C8C8C8;
+}
+.twoblocks .benefits_card-list li {
+  margin-bottom: 10px;
+}
+.twoblocks .benefits_card-list span {
+  font-family: "Proxima Nova Bd";
+  color: #fff;
+}
+.twoblocks .pains {
+  margin-top: 200px;
+}
+.twoblocks .pains_title {
+  width: 630px;
+  font-size: 38px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  margin-bottom: 80px;
+}
+.twoblocks .pains_pain {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+.twoblocks .pains_pain-image {
+  margin-right: 46px;
+}
+.twoblocks .pains_pain-left {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.twoblocks .pains_pain-left-wrapper {
+  margin-top: -55px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 400px;
+}
+.twoblocks .pains_pain-left-titlewrap {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-bottom: -50px;
+}
+.twoblocks .pains_pain-left-titletext {
+  position: relative;
+  font-family: "Berlingske Serif";
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  padding: 8px 18px 8px 46px;
+  border-radius: 5px;
+  background: linear-gradient(81.99deg, #1E1E1E -1.46%, rgba(30, 30, 30, 0) 103.45%);
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
+  margin-right: 20px;
+}
+.twoblocks .pains_pain-left-titletext::before {
+  content: url(/img/galochkaorange.svg);
+  position: absolute;
+  left: 18px;
+  top: 8px;
+}
+.twoblocks .pains_pain-left-titletitle {
+  font-size: 60px;
+  line-height: 72px;
+  text-transform: uppercase;
+  background: linear-gradient(180deg, #EF892C -26.09%, #262626 62.72%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.twoblocks .pains_pain-left-title {
+  font-family: "Proxima Nova Rg";
+  font-size: 22px;
+  line-height: 124.3%;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-bottom: -10px;
+}
+.twoblocks .pains_pain-left-description {
+  font-family: "Proxima Nova Rg";
+  font-size: 18px;
+  line-height: 151.3%;
+  color: #FFFFFF;
+  margin-bottom: 30px;
+}
+.twoblocks .pains_pain-left-button {
+  width: 270px;
+  height: 70px;
+  border: 1px solid #EE8524;
+  border-radius: 10px;
+  font-family: "Proxima Nova Bd";
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: transparent;
+  color: #F1F1F1;
+  text-shadow: 0px 1.31277px 0.656385px rgba(0, 0, 0, 0.15);
+  transition: all 0.2s;
+}
+.twoblocks .pains_pain-left-button:hover {
+  background-color: #EE8524;
+  color: #222;
+  cursor: pointer;
+}
+.twoblocks .pains_pain-right {
+  width: 490px;
+  height: 205px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  background-color: #262626;
+  border: 6px solid #6A6767;
+  border-radius: 10px;
+  padding-bottom: 30px;
+}
+.twoblocks .pains_pain-right-head {
+  padding-top: 14px;
+  padding-left: 34px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.twoblocks .pains_pain-right-head-descr1 {
+  padding: 8px 8px 8px 35px;
+  background-color: #272727;
+  border: 1px solid #343434;
+  border-radius: 5px;
+  position: relative;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  font-family: "Berlingske Serif";
+  margin-right: 30px;
+}
+.twoblocks .pains_pain-right-head-descr1::before {
+  content: url(/img/flash.svg);
+  position: absolute;
+  left: 8px;
+  top: 8;
+  font-size: 18px;
+}
+.twoblocks .pains_pain-right-head-descr2 {
+  padding: 8px 8px 8px 35px;
+  background-color: #272727;
+  border: 1px solid #343434;
+  border-radius: 5px;
+  position: relative;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  font-family: "Berlingske Serif";
+}
+.twoblocks .pains_pain-right-head-descr2::before {
+  content: url(/img/star.svg);
+  position: absolute;
+  left: 8px;
+  top: 8;
+  font-size: 18px;
+}
+.twoblocks .pains_pain-right-content {
+  width: 390px;
+  padding-left: 34px;
+  font-family: "Proxima Nova Lt";
+  font-size: 18px;
+  line-height: 150.3%;
+  color: #FFFFFF;
+  padding-bottom: 20px;
+}/*# sourceMappingURL=basic.css.map */

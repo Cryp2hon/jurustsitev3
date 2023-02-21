@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Berlingske Serif';
+    src: local('Berlingske Serif Medium'), local('Berlingske-Serif-Medium'),
+        url('BerlingskeSerif-Md.woff2') format('woff2'),
+        url('BerlingskeSerif-Md.woff') format('woff'),
+        url('BerlingskeSerif-Md.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+  }
